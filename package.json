@@ -1,0 +1,21 @@
+{
+  "name": "wishlist-api",
+  "version": "1.0.0",
+  "description": "Backend api for custom wishlist applications",
+  "main": "server.js",
+  "author": "Cory Kelley <cory.kelley@ehousestudio.com> (https://ehousestudio.com)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14"
+  }
+}
